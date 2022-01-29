@@ -7,6 +7,7 @@ const Hero = () => {
         <Image
           layout='fill'
           loading='eager'
+          priority={true}
           className='brightness-[.3]'
           objectFit='cover'
           src={

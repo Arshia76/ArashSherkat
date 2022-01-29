@@ -9,6 +9,7 @@ const HeroSecond = (props) => {
           layout='fill'
           objectFit='cover'
           loading='eager'
+          priority={true}
           src={props.img}
           alt={props.title}
         />
