@@ -3,13 +3,13 @@ import Resource from '../public/Resource';
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-3 py-24 px-10 justify-items-center'>
+    <div className='bg-[#111111] grid grid-cols-3 py-24 px-10 justify-items-center'>
       <div className='flex flex-col justify-between h-full w-full'>
-        <p className='text-3xl'>
+        <p className='text-3xl text-white leading-normal'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
         </p>
-        <span className='text-2xl my-10'>09383130658</span>
-        <span className='text-2xl'>arshia@gmail.com</span>
+        <span className='text-2xl my-10 text-[#b7b7a4]'>09383130658</span>
+        <span className='text-2xl text-[#b7b7a4]'>arshia@gmail.com</span>
       </div>
       <div>
         <div className='flex items-center mb-6'>
@@ -20,7 +20,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl text-[#E86A01] mr-4'>
+          <span className='text-2xl text-[#b7b7a4] mr-4'>
             عودت کالا در 30 روز
           </span>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>ارسال رایگان</span>
+          <span className='text-2xl text-[#b7b7a4] mr-4'>ارسال رایگان</span>
         </div>
         <div className='flex items-center mb-6'>
           <Image
@@ -40,7 +40,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>
+          <span className='text-2xl  mr-4 text-[#b7b7a4]'>
             تحویل سریع در 48 ساعت
           </span>
         </div>
@@ -51,7 +51,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>
+          <span className='text-2xl mr-4 text-[#b7b7a4]'>
             بسته‌بندی و تحویل سالم
           </span>
         </div>
@@ -64,7 +64,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>سفارش ها</span>
+          <span className='text-2xl mr-4 text-[#b7b7a4]'>سفارش ها</span>
         </div>
         <div className='flex items-center mb-6'>
           <Image
@@ -73,7 +73,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>دانلود ها</span>
+          <span className='text-2xl  mr-4 text-[#b7b7a4]'>دانلود ها</span>
         </div>
         <div className='flex items-center mb-6'>
           <Image
@@ -82,7 +82,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl  mr-4 text-[#E86A01]'>آدرس ها</span>
+          <span className='text-2xl  mr-4 text-[#b7b7a4]'>آدرس ها</span>
         </div>
         <div className='flex items-center'>
           <Image
@@ -91,7 +91,7 @@ const Footer = () => {
             src={Resource.FilledSVG.ARROWLEFTFILLED}
             alt='arrow-left'
           />
-          <span className='text-2xl mr-4 text-[#E86A01]'>سفارش ها</span>
+          <span className='text-2xl mr-4 text-[#b7b7a4]'>سفارش ها</span>
         </div>
       </div>
     </div>

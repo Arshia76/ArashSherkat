@@ -14,7 +14,9 @@ const Service = (props) => {
       <h4 className='text-black text-center text-4xl mt-20 mb-10'>
         {props.title}
       </h4>
-      <p className='text-black text-center text-xl'>{props.description}</p>
+      <p className='text-black text-center text-2xl leading-normal'>
+        {props.description}
+      </p>
     </div>
   );
 };

@@ -3,9 +3,9 @@ import Resource from '../public/Resource';
 
 const ContactPart = () => {
   return (
-    <div className='relative mt-72 bg-[#111111] flex justify-center items-center w-full h-[200px]'>
+    <div className='relative bg-[#111111] flex justify-center items-center w-full h-[200px]'>
       <div
-        className='absolute py-14 bg-no-repeat bg-center bg-cover bg-[url("http://be.beantownthemes.com/html/content/carparts/images/carparts-wrapbg1.png")] bottom-0 flex flex-col justify-around items-center
+        className='absolute bg-no-repeat bg-center bg-cover bg-[url("http://be.beantownthemes.com/html/content/carparts/images/carparts-wrapbg1.png")] bottom-0 flex flex-col justify-around items-center
        w-[90%] bg-[#FF6F24] h-[350px]'
       >
         <span className='bg-[#111111] text-white text-2xl py-4 px-6 rounded-l-full rounded-br-full'>

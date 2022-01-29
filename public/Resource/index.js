@@ -36,6 +36,10 @@ import HEART from './Svg/heart.svg';
 import ARROWLEFTFILLED from './Svg/filled/arrow-left-filled.svg';
 import SMALLARROWLEFTFILLED from './Svg/filled/small-arrow-left-filled.svg';
 import MOBILE from './Svg/mobile.svg';
+import LINK_WHITE_FILLED from './Svg/filled/link-filled-white.svg';
+import LINK_ORANGE_FILLED from './Svg/filled/link-filled-orange.svg';
+import SHOPPING_CART_WHITE_FILLED from './Svg/filled/shopping-cart-filled-white.svg';
+import SHOPPING_CART_ORANGE_FILLED from './Svg/filled/shopping-cart-filled-orange.svg';
 
 class Resource {
   static Images = {};
@@ -82,11 +86,19 @@ class Resource {
     CAMERAFILLED,
     SMALLARROWLEFTFILLED,
     ARROWLEFTFILLED,
+    LINK_ORANGE_FILLED,
+    LINK_WHITE_FILLED,
+    SHOPPING_CART_ORANGE_FILLED,
+    SHOPPING_CART_WHITE_FILLED,
   };
 
   static Routes = {
     HOME: '/',
     AUTH: '/auth',
+    PRODUCTS: '/products',
+    CATEGORIES: '/categories',
+    ABOUT: '/about',
+    CONTACT: '/contact',
   };
 }
 

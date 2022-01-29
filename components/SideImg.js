@@ -3,7 +3,7 @@ import Resource from '../public/Resource';
 
 const SideImg = () => {
   return (
-    <div className='grid grid-cols-2 gap-x-[80px] w-full my-40 justify-items-center px-40'>
+    <div className='grid grid-cols-2 gap-x-[80px] w-full mb-96 mt-36 justify-between justify-items-between px-28'>
       <div className='w-full h-[500px]'>
         <div className='relative w-full h-full'>
           <Image

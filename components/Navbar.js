@@ -1,10 +1,26 @@
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Resource from '../public/Resource';
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset);
+    // clean up code
+    window.removeEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
-    <nav className='z-50 bg-[#111111] flex items-center justify-evenly p-8'>
+    <nav
+      className={`${
+        offset > 200 && 'sticky top-0 animate-slide-down-animation'
+      } z-50 bg-[#111111] flex items-center justify-evenly p-8 transition-all duration-500 ease-in`}
+    >
       <Image
         width={180}
         height={50}
@@ -20,22 +36,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.HOME}>
+          <Link href={Resource.Routes.ABOUT}>
             <a className='text-2xl'>درباره ‌ما</a>
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.HOME}>
+          <Link href={Resource.Routes.CATEGORIES}>
             <a className='text-2xl'>دسته ‌بندی</a>
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.HOME}>
+          <Link href={Resource.Routes.PRODUCTS}>
             <a className='text-2xl'>خرید</a>
           </Link>
         </li>
         <li className='text-white font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.HOME}>
+          <Link href={Resource.Routes.CONTACT}>
             <a className='text-2xl'>تماس</a>
           </Link>
         </li>
