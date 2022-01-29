@@ -5,8 +5,8 @@ const ContactPart = () => {
   return (
     <div className='relative bg-[#111111] flex justify-center items-center w-full h-[200px]'>
       <div
-        className='absolute bg-no-repeat bg-center bg-cover bg-[url("http://be.beantownthemes.com/html/content/carparts/images/carparts-wrapbg1.png")] bottom-0 flex flex-col justify-around items-center
-       w-[90%] bg-[#FF6F24] h-[350px]'
+        className={`absolute bg-no-repeat bg-center bg-cover bg-[url("/Resource/Images/bg-img.png")] bottom-0 flex flex-col justify-around items-center
+       w-[90%] bg-[#FF6F24] h-[350px]`}
       >
         <span className='bg-[#111111] text-white text-2xl py-4 px-6 rounded-l-full rounded-br-full'>
           آیا دنبال تجهیزات کارخانه‌ای هستید؟

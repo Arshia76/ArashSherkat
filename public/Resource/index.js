@@ -40,9 +40,14 @@ import LINK_WHITE_FILLED from './Svg/filled/link-filled-white.svg';
 import LINK_ORANGE_FILLED from './Svg/filled/link-filled-orange.svg';
 import SHOPPING_CART_WHITE_FILLED from './Svg/filled/shopping-cart-filled-white.svg';
 import SHOPPING_CART_ORANGE_FILLED from './Svg/filled/shopping-cart-filled-orange.svg';
+import ABOUT_IMG from './Images/about.jpg';
+import BG_IMG from './Images/bg-img.png';
 
 class Resource {
-  static Images = {};
+  static Images = {
+    ABOUT_IMG,
+    BG_IMG,
+  };
 
   static Svg = {
     USER,
