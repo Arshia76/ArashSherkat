@@ -8,6 +8,7 @@ const HeroSecond = (props) => {
         <Image
           layout='fill'
           objectFit='cover'
+          loading='eager'
           src={props.img}
           alt={props.title}
         />

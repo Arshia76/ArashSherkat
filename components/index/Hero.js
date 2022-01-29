@@ -6,6 +6,7 @@ const Hero = () => {
       <div className='relative mt-56 w-full h-screen flex justify-center items-center'>
         <Image
           layout='fill'
+          loading='eager'
           className='brightness-[.3]'
           objectFit='cover'
           src={
