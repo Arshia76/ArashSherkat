@@ -6,13 +6,13 @@ import ContactPart from '../components/ContactPart';
 
 const contact = () => {
   return (
-    <div className='max-w-screen  overflow-hidden'>
+    <div className='max-w-screen overflow-hidden'>
       <HeroSecond
         img='https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
         title='تماس با ما'
       />
-      <div className='grid mb-96 grid-cols-2 w-full gap-x-[30px] mt-[300px] px-32'>
-        <div>
+      <div className='grid mb-96 grid-cols-1 md:grid-cols-2 w-full gap-x-[30px] mt-64 md:mt-[300px] px-12 md:px-32'>
+        <div className='mb-32 md:mb-0'>
           <h2 className='text-6xl text-black mb-24'>
             آیا <span className='text-[#FF5F1E]'>سوالی</span> دارید؟
           </h2>

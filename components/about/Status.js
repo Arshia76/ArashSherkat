@@ -6,7 +6,7 @@ const Status = () => {
   const [state, setState] = useState(true);
 
   return (
-    <div className='grid gap-x-[40px] grid-cols-4 py-32 px-28 bg-black'>
+    <div className='grid gap-x-[40px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-32 px-28 bg-black'>
       <CountUp
         className='text-white text-6xl'
         end={3968}
@@ -17,7 +17,7 @@ const Status = () => {
       >
         {({ countUpRef, start }) => (
           <VisibilitySensor active={state} onChange={start} delayedCall>
-            <div className='flex flex-col justify-center items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
+            <div className='flex flex-col justify-center items-center mb-10 py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
               <span className='text-white text-6xl' ref={countUpRef} />
               <span className='text-[#FF5F1E] text-4xl mt-10'>
                 مشتری‌های راضی
@@ -37,7 +37,7 @@ const Status = () => {
       >
         {({ countUpRef, start }) => (
           <VisibilitySensor active={state} onChange={start} delayedCall>
-            <div className='flex flex-col justify-center items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
+            <div className='flex flex-col justify-center mb-10 items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
               <span className='text-white text-6xl' ref={countUpRef} />
               <span className='text-[#FF5F1E] text-4xl mt-10'>تجربه</span>
             </div>
@@ -54,7 +54,7 @@ const Status = () => {
       >
         {({ countUpRef, start }) => (
           <VisibilitySensor active={state} onChange={start} delayedCall>
-            <div className='flex flex-col justify-center items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
+            <div className='flex flex-col justify-center mb-10 items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
               <span className='text-white text-6xl' ref={countUpRef} />
               <span className='text-[#FF5F1E] text-4xl mt-10'>
                 محصولات فروخته شده
@@ -74,7 +74,7 @@ const Status = () => {
       >
         {({ countUpRef, start }) => (
           <VisibilitySensor active={state} onChange={start} delayedCall>
-            <div className='flex flex-col justify-center items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
+            <div className='flex flex-col justify-center mb-10 items-center py-20 rounded-[25px] border-2 border-solid border-[#FF5F1E]'>
               <span className='text-white text-6xl' ref={countUpRef} />
               <span className='text-[#FF5F1E] text-4xl mt-10'>کاربران</span>
             </div>

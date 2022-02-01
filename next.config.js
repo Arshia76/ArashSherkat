@@ -6,6 +6,7 @@ module.exports = {
       'parkers-images.bauersecure.com',
       'www.targettraining.eu',
       'images.pexels.com',
+      'wallpaperaccess.com',
     ],
   },
 };

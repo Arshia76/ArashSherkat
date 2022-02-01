@@ -4,7 +4,7 @@ import Resource from '../../public/Resource';
 const AboutMiddle = () => {
   return (
     <div
-      className='bg-white mt-[250px] grid grid-cols-2 h-full px-24 pb-32
+      className='bg-white mt-64 md:mt-[250px] grid grid-cols-1 md:grid-cols-2 h-full px-24 pb-32
     gap-x-[80px]'
     >
       <div className='flex flex-col items-start justify-between w-full h-full'>
@@ -19,11 +19,11 @@ const AboutMiddle = () => {
             className='rounded-tl-3xl'
           />
         </div>
-        <h4 className='text-black text-6xl text-justify leading-normal'>
+        <h4 className='leading-normal md:leading-normal text-black  mb-10 text-4xl md:text-6xl text-justify '>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم
           متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
         </h4>
-        <p className='text-[#2B2B2B] text-3xl pb-12 leading-loose text-justify'>
+        <p className='text-[#2B2B2B] text-2xl md:text-3xl pb-12 leading-loose md:leading-loose text-justify'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
           ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
@@ -41,7 +41,7 @@ const AboutMiddle = () => {
         <span className='text-white bg-[#111111] text-2xl py-4 px-8 rounded-l-full rounded-br-full'>
           ما چگونه کار می‌کنیم
         </span>
-        <h4 className='text-black text-6xl mt-16 text-justify leading-normal'>
+        <h4 className='text-black text-4xl md:text-6xl mt-16 text-justify leading-normal md:leading-normal'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم
           متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
         </h4>
@@ -86,7 +86,7 @@ const AboutMiddle = () => {
             </div>
           </li>
         </ul>
-        <p className='text-[#2B2B2B] mb-16 text-3xl leading-loose text-justify'>
+        <p className='text-[#2B2B2B] mb-16 text-2xl md:text-3xl leading-loose md:leading-loose text-justify'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
           ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و

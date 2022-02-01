@@ -14,7 +14,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero />
-      <div className='flex justify-center items-center mt-64 mb-24'>
+      <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:justify-center lg:items-center mt-64 mb-24'>
         <Service
           img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon1.png'
           title='گارانتی بازگشت در 30 روز'
@@ -41,8 +41,8 @@ export default function Home() {
         />
       </div>
       <div className='flex flex-col justify-center items-center px-28 py-32 w-full bg-[#111111]'>
-        <div className='flex justify-between w-full items-center mb-20'>
-          <h4 className='text-white text-6xl'>محصولات اخیر</h4>
+        <div className='flex md:flex-row flex-col justify-between w-full items-center mb-20'>
+          <h4 className='text-white text-6xl mb-12 md:mb-0'>محصولات اخیر</h4>
           <button
             className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 px-24 text-2xl
           after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full
@@ -52,7 +52,7 @@ export default function Home() {
             مشاهده تمام محصولات
           </button>
         </div>
-        <div className='flex items-center justify-center w-full h-full'>
+        <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
             img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
             name='تایر'
@@ -84,8 +84,10 @@ export default function Home() {
         </div>
       </div>
       <div className='flex flex-col justify-center items-center px-24 py-32 w-full bg-black'>
-        <div className='flex justify-between w-full items-center mb-20'>
-          <h4 className='text-white text-6xl'>محصولات دارای تخفیف</h4>
+        <div className='flex flex-col md:flex-row justify-between w-full items-center mb-20'>
+          <h4 className='text-white mb-12 md:mb-0 text-6xl'>
+            محصولات دارای تخفیف
+          </h4>
           <button
             className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 px-24 text-2xl
           after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full
@@ -95,7 +97,7 @@ export default function Home() {
             مشاهده تمام محصولات
           </button>
         </div>
-        <div className='flex items-center justify-center w-full h-full'>
+        <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
             img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic5-480x569.jpg'
             name='تایر'

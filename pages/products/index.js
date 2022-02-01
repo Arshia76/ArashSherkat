@@ -7,7 +7,7 @@ const index = () => {
       <h4 className='text-white text-8xl mb-16 text-center pt-32 h-[40vh] bg-[#111111]'>
         محصولات
       </h4>
-      <div className='w-full h-full bg-white px-12 py-10 px-24 grid grid-cols-4 gap-x-[10px] gap-y-[40px]'>
+      <div className='w-full h-full bg-white px-12 py-10 px-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[10px] gap-y-[40px]'>
         <Product
           img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
           name='تایر'

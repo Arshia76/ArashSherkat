@@ -3,8 +3,8 @@ import Resource from '../public/Resource';
 
 const SideImg = () => {
   return (
-    <div className='grid grid-cols-2 gap-x-[80px] w-full mb-96 mt-36 justify-between justify-items-between px-28'>
-      <div className='w-full h-[500px]'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-x-[80px] w-full mb-96 mt-36 justify-between justify-items-between px-28'>
+      <div className='w-full h-[500px] mb-20 md-mb-0'>
         <div className='relative w-full h-full'>
           <Image
             layout='fill'
@@ -18,13 +18,13 @@ const SideImg = () => {
         </div>
       </div>
       <div className='w-full h-full flex justify-between flex-col items-start'>
-        <span className='bg-[#111111] text-white text-2xl py-2 px-8 rounded-l-full rounded-br-full'>
+        <span className='bg-[#111111] text-white text-2xl mb-8 md:mb-0 py-2 px-8 rounded-l-full rounded-br-full'>
           هدف ما چیست ؟
         </span>
-        <h4 className='text-black text-6xl leading-snug '>
+        <h4 className='text-black text-6xl leading-snug mb-16 md:mb-0'>
           هدف ما ارائه بهترین خدمات با مناسبترین هزینه می‌باشد
         </h4>
-        <ul>
+        <ul className='mb-16 md:mb-0'>
           <li className='flex items-center mb-10'>
             <Image
               height={15}

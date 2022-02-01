@@ -13,7 +13,7 @@ const index = () => {
       <h4 className='text-white text-8xl text-center pt-32 h-[40vh] bg-[#111111]'>
         دسته بندی
       </h4>
-      <div className='grid grid-cols-2 gap-x-[20px] pt-28 pb-96 justify-center w-full h-full bg-black px-32'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-x-[20px] pt-28 pb-96 justify-center w-full h-full bg-black px-32'>
         <Category
           img='http://be.beantownthemes.com/html/content/carparts/images/carparts-category-pic3-480x307.jpg'
           category='دسته'

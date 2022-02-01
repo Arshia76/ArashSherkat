@@ -20,7 +20,7 @@ const ContactPart = () => {
           />
           <span className='text-white text-4xl mr-6'>09383130658</span>
         </div>
-        <span className='text-white text-3xl'>
+        <span className='px-6 text-white text-3xl text-center leading-normal'>
           شرکت روزهای شنبه تا چهار شنبه از ساعت 8 صبح تا 6 بعد از ظهر دایر
           می‌باشد.
         </span>

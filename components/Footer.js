@@ -3,7 +3,7 @@ import Resource from '../public/Resource';
 
 const Footer = () => {
   return (
-    <div className='bg-[#111111] grid grid-cols-3 py-24 px-10 justify-items-center'>
+    <div className='z-50 bg-[#111111] grid grid-cols-1 justify-items-start md:grid-cols-3 py-24 px-10 md:justify-items-center'>
       <div className='flex flex-col justify-between h-full w-full'>
         <p className='text-3xl text-white leading-normal'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
@@ -11,7 +11,7 @@ const Footer = () => {
         <span className='text-2xl my-10 text-[#b7b7a4]'>09383130658</span>
         <span className='text-2xl text-[#b7b7a4]'>arshia@gmail.com</span>
       </div>
-      <div>
+      <div className='my-16 md:my-0'>
         <div className='flex items-center mb-6'>
           <Image
             width={15}

@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className='h-[80vh] px-20 flex items-center justify-center w-full relative bg-[#111111]'>
-      <div className='relative mt-56 w-full h-screen flex justify-center items-center'>
+    <div className='md:h-[80vh] h-[60vh] px-20 flex items-center justify-center w-full relative bg-[#111111]'>
+      <div className='relative md:mt-56 mt-12  w-full md:h-screen h-[60vh] flex justify-center items-center'>
         <Image
           layout='fill'
           loading='eager'
           priority={true}
-          className='brightness-[.3]'
+          className='brightness-50'
           objectFit='cover'
           src={
             'https://parkers-images.bauersecure.com/pagefiles/276901/01_kodiaq_snow1.jpg'
@@ -16,11 +16,11 @@ const Hero = () => {
           alt='hero-img'
         />
       </div>
-      <div className='z-10 absolute w-1/3 top-10  right-36 flex flex-col justify-start pt-28'>
-        <h1 className='text-white text-7xl mb-16 leading-snug'>
+      <div className='z-10 absolute w-1/2  md:w-1/3 md:top-10 md:right-36 flex flex-col justify-start pt-28'>
+        <h1 className='text-white text-center md:text-right text-5xl md:text-7xl mb-16 leading-snug'>
           سلام به سایت شرکت خوش آمدید
         </h1>
-        <p className='text-white text-3xl mb-16 leading-loose text-justify'>
+        <p className='hidden md:block text-white text-3xl mb-16 leading-loose text-justify'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
           از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
           سطرآنچنان که لازم است

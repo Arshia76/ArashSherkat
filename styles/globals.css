@@ -6,6 +6,10 @@
   body {
     direction: rtl;
   }
+
+  canvas {
+    position: relative !important;
+  }
 }
 
 @layer utilities {

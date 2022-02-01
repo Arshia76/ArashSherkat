@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 import Resource from '../public/Resource';
@@ -8,8 +9,9 @@ const Product = (props) => {
     Resource.FilledSVG.SHOPPING_CART_WHITE_FILLED
   );
   const [link, setLink] = useState(Resource.FilledSVG.LINK_WHITE_FILLED);
+  const router = useRouter();
   return (
-    <div className='flex overflow-hidden w-full px-8 h-full items-center justify-center flex-col'>
+    <div className='mb-24 lg:mb-0 flex overflow-hidden w-full px-8 h-full items-center justify-center flex-col'>
       <div className='w-full h-[300px] group relative flex justify-center items-center'>
         <Image
           layout='fill'
@@ -21,9 +23,10 @@ const Product = (props) => {
         <div className='z-10 bg-[#D74D1B] opacity-0 group-hover:animate-appear-animation group-hover:opacity-100  absolute translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%]'>
           <div className='flex items-center'>
             <div
+              onClick={() => router.push(`${Resource.Routes.PRODUCTS}/2`)}
               onMouseOver={() => setLink(Resource.FilledSVG.LINK_ORANGE_FILLED)}
               onMouseLeave={() => setLink(Resource.FilledSVG.LINK_WHITE_FILLED)}
-              className='border-l-transparent cursor-pointer hover:bg-white border-solid border p-4 border-[#f1f1f1]'
+              className='border-l-transparent cursor-pointer hover:bg-white border-solid border px-6 py-4 border-red-500'
             >
               <Image
                 width={30}
@@ -40,7 +43,7 @@ const Product = (props) => {
               onMouseLeave={() =>
                 setCart(Resource.FilledSVG.SHOPPING_CART_WHITE_FILLED)
               }
-              className='border-solid cursor-pointer hover:bg-white border p-4 border-[#f1f1f1]'
+              className='border-solid cursor-pointer hover:bg-white border px-6 py-4 border-red-500'
             >
               <Image
                 width={30}
