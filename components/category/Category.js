@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Category = (props) => {
   return (
     <div className='flex flex-col items-center justify-center w-full h-full mb-20'>
-      <div className='relative w-full h-[350px] flex justify-center items-center'>
+      <div className='relative cursor-pointer w-full h-[350px] flex justify-center items-center'>
         <Image
           layout='fill'
           objectFit='cover'

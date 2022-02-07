@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Video = () => {
   return (
-    <div className='relative flex justify-center items-center w-full h-[650px] cursor-pointer px-28 pb-96 bg-black'>
+    <div className='relative flex justify-center items-center w-full h-[500px] md:h-[650px] cursor-pointer px-24 pb-96 bg-black'>
       <div className='flex justify-center items-center relative w-full h-full'>
         <Image
           layout='fill'

@@ -5,7 +5,7 @@ import Product from '../components/Product';
 import Service from '../components/index/Service';
 import SideImg from '../components/SideImg';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className='w-full flex flex-col justify-center items-center bg-[url("http://be.beantownthemes.com/html/content/carparts/images/carparts-sectionbg2.png") bg-center bg-no-repeat bg-cover]'>
       <Head>
@@ -42,10 +42,12 @@ export default function Home() {
       </div>
       <div className='flex flex-col justify-center items-center px-28 py-32 w-full bg-[#111111]'>
         <div className='flex md:flex-row flex-col justify-between w-full items-center mb-20'>
-          <h4 className='text-white text-6xl mb-12 md:mb-0'>محصولات اخیر</h4>
+          <h4 className='text-white text-4xl text-center md:text-6xl mb-12 md:mb-0'>
+            محصولات اخیر
+          </h4>
           <button
-            className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 px-24 text-2xl
-          after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full
+            className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 md:px-24 text-2xl
+          after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full px-16
           after:bg-[#262626] after:rounded-full after:-z-20 before:content-[""] before:absolute before:bottom-[0] before:left-[0] before:w-[0%] before:h-full
           before:bg-[#222222] before:rounded-full before:-z-10 before:transition-all before:duration-500 hover:before:w-full'
           >
@@ -85,12 +87,12 @@ export default function Home() {
       </div>
       <div className='flex flex-col justify-center items-center px-24 py-32 w-full bg-black'>
         <div className='flex flex-col md:flex-row justify-between w-full items-center mb-20'>
-          <h4 className='text-white mb-12 md:mb-0 text-6xl'>
+          <h4 className='text-white mb-12 md:mb-0 text-4xl text-center md:text-6xl'>
             محصولات دارای تخفیف
           </h4>
           <button
-            className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 px-24 text-2xl
-          after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full
+            className='relative overflow-hidden z-10 transition-all duration-500 ease-in-out text-white rounded-full py-8 md:px-24 text-2xl
+          after:content-[""] after:absolute after:bottom-[0] after:left-[0] after:w-full after:h-full px-16
           after:bg-[#262626] after:rounded-full after:-z-20 before:content-[""] before:absolute before:bottom-[0] before:left-[0] before:w-[0%] before:h-full
           before:bg-[#222222] before:rounded-full before:-z-10 before:transition-all before:duration-500 hover:before:w-full'
           >

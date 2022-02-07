@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav
       className={`${
         offset > 200 && 'sticky top-0 animate-slide-down-animation'
-      } z-50 bg-[#111111] flex items-center justify-evenly p-8 transition-all duration-500 ease-in`}
+      } z-50 bg-[#cc9966] flex items-center justify-evenly p-8 transition-all duration-500 ease-in`}
     >
       <Image
         width={180}

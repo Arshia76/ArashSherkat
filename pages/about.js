@@ -5,7 +5,7 @@ import ContactPart from '../components/ContactPart';
 import Video from '../components/about/Video';
 import Resource from '../public/Resource';
 
-const about = () => {
+const AboutPage = () => {
   return (
     <div className='max-w-screen overflow-hidden'>
       <HeroSecond img={Resource.Images.ABOUT_IMG} title='درباره ما' />
@@ -17,4 +17,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default AboutPage;

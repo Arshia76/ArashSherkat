@@ -17,15 +17,15 @@ const SideImg = () => {
           />
         </div>
       </div>
-      <div className='w-full h-full flex justify-between flex-col items-start'>
-        <span className='bg-[#111111] text-white text-2xl mb-8 md:mb-0 py-2 px-8 rounded-l-full rounded-br-full'>
+      <div className='w-full h-full flex justify-center md:justify-between flex-col items-start'>
+        <span className='bg-[#111111] text-white text-2xl mb-10 md:mb-8 md:mb-0 py-2 px-8 rounded-l-full rounded-br-full'>
           هدف ما چیست ؟
         </span>
-        <h4 className='text-black text-6xl leading-snug mb-16 md:mb-0'>
+        <h4 className='text-black text-center md:text-right text-4xl md:text-6xl leading-snug md:leading-snug mb-16 md:mb-0'>
           هدف ما ارائه بهترین خدمات با مناسبترین هزینه می‌باشد
         </h4>
         <ul className='mb-16 md:mb-0'>
-          <li className='flex items-center mb-10'>
+          <li className='flex items-start md:items-center mb-10 text-center md:text-right'>
             <Image
               height={15}
               width={15}
@@ -36,7 +36,7 @@ const SideImg = () => {
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
             </span>
           </li>
-          <li className='flex items-center mb-10'>
+          <li className='flex items-start md:items-center text-center md:text-right mb-10'>
             <Image
               height={15}
               width={15}
@@ -47,7 +47,7 @@ const SideImg = () => {
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
             </span>
           </li>
-          <li className='flex items-center'>
+          <li className='flex items-start md:items-center text-center md:text-right'>
             <Image
               height={15}
               width={15}
@@ -59,7 +59,7 @@ const SideImg = () => {
             </span>
           </li>
         </ul>
-        <button className='bg-[#FF5F1E] text-white text-3xl py-6 px-44 rounded-full'>
+        <button className='bg-[#FF5F1E] text-white text-3xl py-6 px-24 mx-auto md:mx-0 md:px-44 rounded-full'>
           درباره ما
         </button>
       </div>

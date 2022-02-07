@@ -4,12 +4,12 @@ import Product from '../../components/Product';
 import ContactPart from '../../components/ContactPart';
 import { Fragment } from 'react';
 
-const index = () => {
+const ProductPage = () => {
   return (
     <Fragment>
-      <div className='flex flex-col w-full h-full py-14 px-32 mb-96'>
-        <div className='grid grid-cols-2 gap-x-[35px] w-full'>
-          <div className='relative w-full h-[500px]'>
+      <div className='flex flex-col w-full h-full py-14 px-16 md:px-32 mb-96'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-x-[35px] w-full'>
+          <div className='relative w-full h-[350px] md:h-[500px] mb-16 md:mb-0'>
             <Image
               layout='fill'
               objectFit='cover'
@@ -19,10 +19,14 @@ const index = () => {
               alt='img'
             />
           </div>
-          <div className='flex w-full h-full flex-col justify-between'>
-            <h2 className='text-black text-6xl'>تایر مقاوم تویوتا</h2>
-            <span className='text-[#FF5F1E] text-5xl'>160000 ریال</span>
-            <div>
+          <div className='flex w-full h-full flex-col justify-between items-center md:items-start'>
+            <h2 className='text-black text-6xl mb-14 md:mb-0'>
+              تایر مقاوم تویوتا
+            </h2>
+            <span className='text-[#FF5F1E] text-5xl mb-14 md:mb-0'>
+              160000 ریال
+            </span>
+            <div className='mb-14 md:mb-0'>
               <div className='flex items-center mb-6'>
                 <span className='text-3xl text-black ml-2'>کد محصول:</span>
                 <span className='text-3xl text-black'>MG-782456</span>
@@ -34,7 +38,7 @@ const index = () => {
             </div>
             <div>
               {/* select */}
-              <button className='text-3xl text-white transition-all duration-500 ease-in bg-[#E94F11] py-4 px-8 rounded-full hover:opacity-90'>
+              <button className='text-3xl mb-14 md:mb-0 text-white transition-all duration-500 ease-in bg-[#E94F11] py-4 px-8 rounded-full hover:opacity-90'>
                 اضافه کردن به سبد
               </button>
             </div>
@@ -67,8 +71,8 @@ const index = () => {
             </tbody>
           </table>
         </div>
-        <div className='py-24 w-full px-32 border-solid border-transparent border-y-2 border-y-[#EBEBEB]'>
-          <p className='text-black text-3xl leading-normal mb-8'>
+        <div className='py-24 w-full px-0 md:px-32 border-solid border-transparent border-y-2 border-y-[#EBEBEB]'>
+          <p className='text-black text-3xl leading-normal mb-12 md:mb-8'>
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است
@@ -103,7 +107,7 @@ const index = () => {
             ما شنبه تا چهارشنبه از ساعت 6 تا 8 در دسترس می‌باشیم
           </p>
         </div> */}
-          <div className='flex justify-center items-center mt-32'>
+          <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:justify-center lg:items-center mt-32'>
             <Service
               img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon1.png'
               title='گارانتی بازگشت در 30 روز'
@@ -131,7 +135,7 @@ const index = () => {
           </div>
         </div>
         <h2 className='text-7xl text-black my-16 mr-6'>محصولات مشابه</h2>
-        <div className='flex items-center justify-center w-full h-full'>
+        <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
             img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
             name='تایر'
@@ -163,4 +167,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ProductPage;

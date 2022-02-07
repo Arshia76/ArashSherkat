@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Category from '../../components/category/Category';
 import ContactPart from '../../components/ContactPart';
 
-const index = () => {
+const CategoryPage = () => {
   return (
     <div>
       {/* <Head>
@@ -44,4 +44,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default CategoryPage;

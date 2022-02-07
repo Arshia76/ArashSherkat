@@ -4,7 +4,7 @@ import Form from '../components/contact/Form';
 import HeroSecond from '../components/HeroSecond';
 import ContactPart from '../components/ContactPart';
 
-const contact = () => {
+const ContactPage = () => {
   return (
     <div className='max-w-screen overflow-hidden'>
       <HeroSecond
@@ -16,7 +16,7 @@ const contact = () => {
           <h2 className='text-6xl text-black mb-24'>
             آیا <span className='text-[#FF5F1E]'>سوالی</span> دارید؟
           </h2>
-          <span className='text-4xl text-black'>
+          <span className='text-4xl text-black md:text-right leading-normal text-center'>
             تبریز-شهرک باغمیشه-میدان اطلس-مجتمع مسکونی صدف
           </span>
           <div className='flex items-center mb-10 mt-24'>
@@ -51,4 +51,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default ContactPage;

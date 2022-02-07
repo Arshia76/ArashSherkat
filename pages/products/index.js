@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Product from '../../components/Product';
 
-const index = () => {
+const ProductsPage = () => {
   return (
     <div>
       <h4 className='text-white text-8xl mb-16 text-center pt-32 h-[40vh] bg-[#111111]'>
@@ -109,4 +109,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ProductsPage;

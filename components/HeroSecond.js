@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const HeroSecond = (props) => {
   return (
-    <div className='relative flex justify-evenly items-center w-screen h-[50vh] md:h-[70vh] pt-16 bg-[#111111] '>
+    <div className='z-[-1] relative flex justify-evenly items-center w-screen h-[50vh] md:h-[70vh] pt-16 bg-[#111111] '>
       <div className='relative h-[60vh] md:h-[95vh] w-2/3 flex justify-center items-center'>
         <Image
           layout='fill'

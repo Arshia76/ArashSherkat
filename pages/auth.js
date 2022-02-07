@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const Auth = () => {
+const AuthPage = () => {
   const [state, setState] = useState('login');
 
   const Register = () => {
@@ -117,4 +117,4 @@ const Auth = () => {
   );
 };
 
-export default Auth;
+export default AuthPage;
