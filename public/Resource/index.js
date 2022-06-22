@@ -42,6 +42,7 @@ import SHOPPING_CART_WHITE_FILLED from './Svg/filled/shopping-cart-filled-white.
 import SHOPPING_CART_ORANGE_FILLED from './Svg/filled/shopping-cart-filled-orange.svg';
 import ABOUT_IMG from './Images/about.jpg';
 import BG_IMG from './Images/bg-img.png';
+import HAMBURGER from './Svg/hamburger.svg';
 
 class Resource {
   static Images = {
@@ -50,6 +51,7 @@ class Resource {
   };
 
   static Svg = {
+    HAMBURGER,
     USER,
     MOBILE,
     BASKET,
@@ -104,6 +106,7 @@ class Resource {
     CATEGORIES: '/categories',
     ABOUT: '/about',
     CONTACT: '/contact',
+    CART: '/cart',
   };
 }
 

@@ -37,6 +37,7 @@ const Product = (props) => {
               />
             </div>
             <div
+              onClick={() => router.push(Resource.Routes.CART)}
               onMouseOver={() =>
                 setCart(Resource.FilledSVG.SHOPPING_CART_ORANGE_FILLED)
               }

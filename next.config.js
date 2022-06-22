@@ -7,6 +7,7 @@ module.exports = {
       'www.targettraining.eu',
       'images.pexels.com',
       'wallpaperaccess.com',
+      'cdn2.iconfinder.com',
     ],
   },
 };

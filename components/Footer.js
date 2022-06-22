@@ -12,7 +12,7 @@ const Footer = () => {
         <span className='text-2xl text-[#b7b7a4]'>arshia@gmail.com</span>
       </div>
       <div className='my-16 md:my-0'>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -24,7 +24,7 @@ const Footer = () => {
             عودت کالا در 30 روز
           </span>
         </div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -33,7 +33,7 @@ const Footer = () => {
           />
           <span className='text-2xl text-[#b7b7a4] mr-4'>ارسال رایگان</span>
         </div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -44,7 +44,7 @@ const Footer = () => {
             تحویل سریع در 48 ساعت
           </span>
         </div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -66,7 +66,7 @@ const Footer = () => {
           />
           <span className='text-2xl mr-4 text-[#b7b7a4]'>سفارش ها</span>
         </div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -75,7 +75,7 @@ const Footer = () => {
           />
           <span className='text-2xl  mr-4 text-[#b7b7a4]'>دانلود ها</span>
         </div>
-        <div className='flex items-center mb-6'>
+        <div className='flex items-center mb-6 cursor-pointer'>
           <Image
             width={15}
             height={15}
@@ -84,7 +84,7 @@ const Footer = () => {
           />
           <span className='text-2xl  mr-4 text-[#b7b7a4]'>آدرس ها</span>
         </div>
-        <div className='flex items-center'>
+        <div className='flex items-center cursor-pointer'>
           <Image
             width={15}
             height={15}

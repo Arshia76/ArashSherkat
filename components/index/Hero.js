@@ -1,8 +1,11 @@
 import Image from 'next/image';
+import Resource from '../../public/Resource';
+import { useRouter } from 'next/router';
 
 const Hero = () => {
+  const router = useRouter();
   return (
-    <div className='md:h-[80vh] h-[60vh] px-20 flex items-center justify-center w-full relative bg-[#cc9966]'>
+    <div className='md:h-[80vh] h-[60vh] px-20 flex items-center justify-center w-full relative bg-[#111111]'>
       <div className='relative md:mt-56 mt-12  w-full md:h-screen h-[60vh] flex justify-center items-center'>
         <Image
           layout='fill'
@@ -26,6 +29,7 @@ const Hero = () => {
           سطرآنچنان که لازم است
         </p>
         <button
+          onClick={() => router.push(Resource.Routes.PRODUCTS)}
           className='bg-[#FF5F1E] text-white
         text-2xl rounded-full px-10 mx-auto md:mx-0 md:px-20 py-4 md:w-fit '
         >

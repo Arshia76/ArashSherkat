@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Resource from '../public/Resource';
+import { useRouter } from 'next/router';
 
 const SideImg = () => {
+  const router = useRouter();
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-x-[80px] w-full mb-96 mt-36 justify-between justify-items-between px-28'>
       <div className='w-full h-[500px] mb-20 md-mb-0'>
@@ -59,7 +61,10 @@ const SideImg = () => {
             </span>
           </li>
         </ul>
-        <button className='bg-[#FF5F1E] text-white text-3xl py-6 px-24 mx-auto md:mx-0 md:px-44 rounded-full'>
+        <button
+          onClick={() => router.push(Resource.Routes.ABOUT)}
+          className='bg-[#FF5F1E] text-white text-3xl py-6 px-24 mx-auto md:mx-0 md:px-44 rounded-full'
+        >
           درباره ما
         </button>
       </div>

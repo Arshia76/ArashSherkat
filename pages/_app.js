@@ -3,6 +3,8 @@ import '../public/Resource/Stylesheets/config.css';
 import '../public/Resource/Stylesheets/fontiran.css';
 import '../public/Resource/Stylesheets/responsive.css';
 import '../styles/globals.css';
+import '../styles/Paginator.css';
+import '../styles/Navbar.css';
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
