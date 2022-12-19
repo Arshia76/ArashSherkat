@@ -9,13 +9,13 @@ const HeroSecond = (props) => {
           layout='fill'
           objectFit='cover'
           loading='eager'
-          className='brightness-50'
+          className='brightness-75'
           priority={true}
           src={props.img}
           alt={props.title}
         />
       </div>
-      <h2 className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[#cc9966] text-7xl md:text-[100px]'>
+      <h2 className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[#ffffff] text-7xl md:text-[100px]'>
         {props.title}
       </h2>
     </div>

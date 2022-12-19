@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 
 const Category = (props) => {
   return (
-    <div className='flex flex-col items-center justify-center w-full h-full mb-20'>
-      <div className='relative cursor-pointer w-full h-[350px] flex justify-center items-center'>
+    <div className='flex flex-col items-center justify-center w-full h-full mb-28'>
+      <div className='relative cursor-pointer w-full flex justify-center items-center'>
         <Image
-          layout='fill'
-          objectFit='cover'
+          width={200}
+          height={200}
+          objectFit='contain'
           src={props.img}
           alt={props.category}
         />

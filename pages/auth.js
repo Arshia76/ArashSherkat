@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Image from 'next/image';
 import Head from 'next/head';
 
 const AuthPage = () => {
@@ -104,7 +103,7 @@ const AuthPage = () => {
 
   return (
     <div
-      className='h-screen bg-auth-hero
+      className='h-screen bg-auth-hero brightness-50
     bg-fixed bg-cover bg-center w-full flex justify-center items-center'
     >
       {state === 'login' ? (

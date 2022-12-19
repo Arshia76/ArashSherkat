@@ -40,7 +40,7 @@ const SideBar = ({ setShow, show }) => {
               </li>
             </Link>
 
-            <Link href={Resource.Routes.ABOUT} passHref>
+            <Link href={Resource.Routes.PRODUCTS} passHref>
               <li
                 style={{
                   borderBottom: '1px solid #282828',
@@ -48,7 +48,7 @@ const SideBar = ({ setShow, show }) => {
                 className='text-gray-300 
        font-[500] hover:text-[#FF5F1E] ease-in duration-300 p-6 cursor-pointer transition-all'
               >
-                <a className='text-2xl'>درباره ‌ما</a>
+                <a className='text-2xl'>خرید</a>
               </li>
             </Link>
 
@@ -64,7 +64,7 @@ const SideBar = ({ setShow, show }) => {
               </li>
             </Link>
 
-            <Link href={Resource.Routes.PRODUCTS} passHref>
+            <Link href={Resource.Routes.ABOUT} passHref>
               <li
                 style={{
                   borderBottom: '1px solid #282828',
@@ -72,7 +72,7 @@ const SideBar = ({ setShow, show }) => {
                 className='text-gray-300 
        font-[500] hover:text-[#FF5F1E] ease-in duration-300 p-6 cursor-pointer transition-all'
               >
-                <a className='text-2xl'>خرید</a>
+                <a className='text-2xl'>درباره ‌ما</a>
               </li>
             </Link>
 
@@ -84,7 +84,7 @@ const SideBar = ({ setShow, show }) => {
                 className='text-gray-300
        font-[500] hover:text-[#FF5F1E] ease-in duration-300 p-6 cursor-pointer transition-all'
               >
-                <a className='text-2xl'>تماس</a>
+                <a className='text-2xl'>تماس‌با‌ما</a>
               </li>
             </Link>
 
@@ -119,9 +119,7 @@ const ResponsiveNavbar = ({ setShow, show }) => {
         <Image
           width={150}
           height={40}
-          src={
-            'http://be.beantownthemes.com/html/content/carparts/images/carparts.png'
-          }
+          src={Resource.Images.LOGO_IMG}
           alt='main-logo'
           className='cursor-pointer'
           objectFit='contain'
@@ -183,10 +181,11 @@ const Navbar = () => {
     >
       <Link href={Resource.Routes.HOME} passHref>
         <Image
-          width={180}
-          height={50}
+          width={150}
+          height={40}
+          objectFit='contain'
           src={
-            'http://be.beantownthemes.com/html/content/carparts/images/carparts.png'
+            'https://prs.themedemo.org/PRSADD15/PRS360/img/logo-1645681599.jpg'
           }
           alt='main-logo'
           className='cursor-pointer'
@@ -199,8 +198,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.ABOUT}>
-            <a className='text-2xl'>درباره ‌ما</a>
+          <Link href={Resource.Routes.PRODUCTS}>
+            <a className='text-2xl'>خرید</a>
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
@@ -209,13 +208,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='text-white ml-10 font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
-          <Link href={Resource.Routes.PRODUCTS}>
-            <a className='text-2xl'>خرید</a>
+          <Link href={Resource.Routes.ABOUT}>
+            <a className='text-2xl'>درباره ‌ما</a>
           </Link>
         </li>
         <li className='text-white font-[500] hover:text-[#FF5F1E] ease-in duration-300 transition-all'>
           <Link href={Resource.Routes.CONTACT}>
-            <a className='text-2xl'>تماس</a>
+            <a className='text-2xl'>تماس‌با‌ما</a>
           </Link>
         </li>
       </ul>

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        'auth-hero': "url('https://wallpaperaccess.com/full/499250.jpg')",
+        'auth-hero': "url('/Resource/Images/auth.webp')",
       }),
       animation: {
         'slide-down-animation': 'slide-down 500ms ease-in-out ',

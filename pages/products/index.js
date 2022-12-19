@@ -1,6 +1,7 @@
 import Paginator from '../../components/Paginator';
 import Product from '../../components/Product';
 import Head from 'next/head';
+import Resource from '../../public/Resource';
 
 const ProductsPage = () => {
   return (
@@ -12,9 +13,9 @@ const ProductsPage = () => {
       <h4 className='text-white text-8xl mb-16 text-center pt-32 h-[40vh] bg-[#111111]'>
         محصولات
       </h4>
-      <div className='w-full h-full bg-white px-12 py-10 px-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[10px] gap-y-[40px]'>
+      <div className='w-full h-full bg-white py-10 px-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[10px] gap-y-[40px]'>
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
+          img={Resource.Images.IMAGE_1}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -22,7 +23,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic10-480x569.jpg'
+          img={Resource.Images.IMAGE_2}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -30,7 +31,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic1-480x569.jpg'
+          img={Resource.Images.IMAGE_3}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -38,7 +39,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+          img={Resource.Images.IMAGE_4}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -46,7 +47,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic5-480x569.jpg'
+          img={Resource.Images.IMAGE_5}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -54,7 +55,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic8-480x569.jpg'
+          img={Resource.Images.IMAGE_6}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -62,7 +63,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic7-480x569.jpg'
+          img={Resource.Images.IMAGE_7}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -70,7 +71,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic6-480x569.jpg'
+          img={Resource.Images.IMAGE_8}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -78,7 +79,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
+          img={Resource.Images.IMAGE_9}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -86,7 +87,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic10-480x569.jpg'
+          img={Resource.Images.IMAGE_10}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -94,7 +95,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic1-480x569.jpg'
+          img={Resource.Images.IMAGE_11}
           name='تایر'
           price='5000'
           code='Mg-786124'
@@ -102,7 +103,7 @@ const ProductsPage = () => {
           page='Products'
         />
         <Product
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+          img={Resource.Images.IMAGE_12}
           name='تایر'
           price='5000'
           code='Mg-786124'

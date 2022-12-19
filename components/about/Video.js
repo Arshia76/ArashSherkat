@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Resource from '../../public/Resource';
 
 const Video = () => {
   return (
@@ -7,18 +8,14 @@ const Video = () => {
         <Image
           layout='fill'
           objectFit='cover'
-          src={
-            'http://be.beantownthemes.com/html/content/carparts/images/carparts-wrapbg2.jpg'
-          }
+          src={Resource.Images.VIDEO_IMG}
           alt='video'
         />
         <div>
           <Image
             width={60}
             height={60}
-            src={
-              'http://be.beantownthemes.com/html/content/carparts/images/carparts-icon1.png'
-            }
+            src={'https://cdn-icons-png.flaticon.com/512/260/260446.png'}
             alt='player'
           />
         </div>

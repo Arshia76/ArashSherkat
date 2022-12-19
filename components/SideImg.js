@@ -11,9 +11,11 @@ const SideImg = () => {
           <Image
             layout='fill'
             objectFit='cover'
+            loading='eager'
+            priority={true}
             className='rounded-tl-3xl'
             src={
-              'http://be.beantownthemes.com/html/content/carparts/images/carparts-home-pic1.png'
+              'https://ld-prestashop.template-help.com/prestashop_15560/modules/jxblog/img/p/1.jpg'
             }
             alt='side-img'
           />

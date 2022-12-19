@@ -16,7 +16,7 @@ const Product = (props) => {
         <Image
           layout='fill'
           objectFit='cover'
-          className='group-hover:scale-125 transition-all duration-500 ease-in'
+          className='group-hover:scale-125 group-hover:brightness-90 transition-all duration-500 ease-in'
           src={props.img}
           alt={props.name}
         />
@@ -34,6 +34,7 @@ const Product = (props) => {
                 className='ml-8'
                 src={link}
                 alt='link-img'
+                objectFit='cover'
               />
             </div>
             <div

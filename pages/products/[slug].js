@@ -5,6 +5,7 @@ import ContactPart from '../../components/ContactPart';
 import { Fragment } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Resource from '../../public/Resource';
 
 const ProductPage = () => {
   const router = useRouter();
@@ -20,9 +21,7 @@ const ProductPage = () => {
             <Image
               layout='fill'
               objectFit='cover'
-              src={
-                'http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-600x711.jpg'
-              }
+              src={Resource.Images.IMAGE_10}
               alt='img'
             />
           </div>
@@ -105,36 +104,28 @@ const ProductPage = () => {
             استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است
           </p>
-          {/* <div className='flex flex-col justify-center items-center w-full'>
-          <span className='text-[#424542] text-3xl mb-14'>
-            دنبال محصولات با کیفیت هستید؟
-          </span>
-          <span className='text-black text-7xl mb-14'>09383130658</span>
-          <p className='text-[#424542] text-3xl'>
-            ما شنبه تا چهارشنبه از ساعت 6 تا 8 در دسترس می‌باشیم
-          </p>
-        </div> */}
+
           <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:justify-center lg:items-center mt-32'>
             <Service
-              img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon1.png'
+              img={Resource.Images.GUARANTEE_IMG}
               title='گارانتی بازگشت در 30 روز'
               description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
             />
             <Service
-              img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon2.png'
+              img={Resource.Images.FREE_IMG}
               title='ارسال رایگان'
               description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
             />
             <Service
-              img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon3.png'
+              img={Resource.Images.FAST_IMG}
               title='تحویل سریع'
               description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
             />
             <Service
-              img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon4.png'
+              img={Resource.Images.SAFE_IMG}
               title='تحویل سالم'
               description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
@@ -144,7 +135,7 @@ const ProductPage = () => {
         <h2 className='text-7xl text-black my-16 mr-6'>محصولات مشابه</h2>
         <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
+            img='https://demo.ishithemes.com/prestashop/PRS138/img/p/4/5/6/456-home_default.jpg'
             name='تایر'
             price='5000'
             code='Mg-786124'
@@ -152,7 +143,7 @@ const ProductPage = () => {
             page='Products'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic10-480x569.jpg'
+            img='https://demo.ishithemes.com/prestashop/PRS138/img/p/4/6/1/461-home_default.jpg'
             name='تایر'
             price='5000'
             code='Mg-786124'
@@ -160,7 +151,7 @@ const ProductPage = () => {
             page='Products'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic1-480x569.jpg'
+            img='https://demo.ishithemes.com/prestashop/PRS138/img/p/5/0/7/507-home_default.jpg'
             name='تایر'
             price='5000'
             code='Mg-786124'

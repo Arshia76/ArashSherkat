@@ -1,5 +1,6 @@
 import Fee from '../components/cart/Fee';
 import Item from '../components/cart/Item';
+import Resource from '../public/Resource';
 
 const cart = () => {
   return (
@@ -13,31 +14,25 @@ const cart = () => {
           productName='تایر'
           productPrice='180000'
           productDescription='لورم یک متن ساختگی برای استفاده به عنوان جایگزین می‌باشد'
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic10-480x569.jpg'
+          img={Resource.Images.IMAGE_1}
         />
         <Item
           productName='تایر'
           productPrice='265000'
           productDescription='لورم یک متن ساختگی برای استفاده به عنوان جایگزین می‌باشد'
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+          img={Resource.Images.IMAGE_2}
         />
         <Item
           productName='تایر'
           productPrice='265000'
           productDescription='لورم یک متن ساختگی برای استفاده به عنوان جایگزین می‌باشد'
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+          img={Resource.Images.IMAGE_4}
         />
         <Item
           productName='تایر'
           productPrice='265000'
           productDescription='لورم یک متن ساختگی برای استفاده به عنوان جایگزین می‌باشد'
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
-        />
-        <Item
-          productName='تایر'
-          productPrice='265000'
-          productDescription='لورم یک متن ساختگی برای استفاده به عنوان جایگزین می‌باشد'
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+          img={Resource.Images.IMAGE_5}
         />
       </div>
     </div>

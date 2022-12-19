@@ -18,25 +18,25 @@ export default function HomePage() {
       <Hero />
       <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:justify-center lg:items-center mt-64 mb-24'>
         <Service
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon1.png'
+          img={Resource.Images.GUARANTEE_IMG}
           title='گارانتی بازگشت در 30 روز'
           description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
         />
         <Service
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon2.png'
+          img={Resource.Images.FREE_IMG}
           title='ارسال رایگان'
           description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
         />
         <Service
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon3.png'
+          img={Resource.Images.FAST_IMG}
           title='تحویل سریع'
           description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
         />
         <Service
-          img='http://be.beantownthemes.com/html/content/carparts/images/carparts-home-icon4.png'
+          img={Resource.Images.SAFE_IMG}
           title='تحویل سالم'
           description='ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون'
@@ -59,28 +59,28 @@ export default function HomePage() {
         </div>
         <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic4-480x569.jpg'
+            img={Resource.Images.IMAGE_1}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic10-480x569.jpg'
+            img={Resource.Images.IMAGE_4}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic1-480x569.jpg'
+            img={Resource.Images.IMAGE_2}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic2-480x569.jpg'
+            img={Resource.Images.IMAGE_3}
             name='تایر'
             price='5000'
             code='Mg-786124'
@@ -105,28 +105,28 @@ export default function HomePage() {
         </div>
         <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:flex lg:items-center lg:justify-center w-full h-full'>
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic5-480x569.jpg'
+            img={Resource.Images.IMAGE_5}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic8-480x569.jpg'
+            img={Resource.Images.IMAGE_6}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic7-480x569.jpg'
+            img={Resource.Images.IMAGE_7}
             name='تایر'
             price='5000'
             code='Mg-786124'
             manufecturer='شرکت دیجی کالا'
           />
           <Product
-            img='http://be.beantownthemes.com/html/content/carparts/images/carparts-products-pic6-480x569.jpg'
+            img={Resource.Images.IMAGE_8}
             name='تایر'
             price='5000'
             code='Mg-786124'

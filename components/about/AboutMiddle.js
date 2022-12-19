@@ -4,18 +4,18 @@ import Resource from '../../public/Resource';
 const AboutMiddle = () => {
   return (
     <div
-      className='bg-white mt-64 md:mt-[250px] grid grid-cols-1 md:grid-cols-2 h-full px-24 pb-32
+      className='bg-white mt-64 md:mt-[150px] grid grid-cols-1 md:grid-cols-2 h-full px-24 pb-32
     gap-x-[80px]'
     >
       <div className='flex flex-col items-start justify-between w-full h-full'>
-        <div className='relative w-full h-[450px] mb-20 flex items-center justify-center'>
+        <div className='relative w-full h-[500px] mb-20 flex items-center justify-center'>
           <Image
-            src={
-              'http://be.beantownthemes.com/html/content/carparts/images/carparts-home-pic1.png'
-            }
+            src={Resource.Images.ABOUT_IMG_1}
+            loading='eager'
+            priority={true}
             alt='image'
             layout='fill'
-            objectFit='cover'
+            objectFit='fill'
             className='rounded-tl-3xl'
           />
         </div>
@@ -101,11 +101,11 @@ const AboutMiddle = () => {
         </p>
         <div className='relative w-full h-[400px] flex items-center justify-center'>
           <Image
+            loading='eager'
+            priority={true}
             layout='fill'
-            objectFit='cover'
-            src={
-              'http://be.beantownthemes.com/html/content/carparts/images/carparts-about-pic1.jpg'
-            }
+            objectFit='fill'
+            src={Resource.Images.ABOUT_IMG_2}
             alt='image'
           />
         </div>
