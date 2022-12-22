@@ -7,7 +7,7 @@ const AuthPage = () => {
   const Register = () => {
     return (
       <div
-        className=' opacity-90  bg-[#212842] px-10 rounded-xl flex pb-10 pt-20 
+        className=' opacity-95  bg-[#212842] px-10 rounded-xl flex pb-10 pt-20 
       flex-col items-center w-2/3 md:w-1/3 h-fit'
       >
         <Head>
@@ -58,7 +58,7 @@ const AuthPage = () => {
   const Login = () => {
     return (
       <div
-        className='opacity-90  bg-[#212842] px-10 rounded-xl flex pb-10 pt-20 
+        className='opacity-95  bg-[#212842] px-10 rounded-xl flex pb-10 pt-20 
       flex-col items-center w-2/3 md:w-1/3 h-fit'
       >
         <h2 className='text-7xl text-white mb-16'>ورود</h2>
@@ -103,7 +103,7 @@ const AuthPage = () => {
 
   return (
     <div
-      className='h-screen bg-auth-hero brightness-50
+      className='h-screen bg-auth-hero brightness-90
     bg-fixed bg-cover bg-center w-full flex justify-center items-center'
     >
       {state === 'login' ? (
